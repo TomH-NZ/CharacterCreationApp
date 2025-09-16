@@ -1,6 +1,6 @@
 ﻿namespace CharacterCreationApp.Constants;
 
-public enum Ability
+public enum PlayerStat
 {
     Strength,
     Dexterity,
