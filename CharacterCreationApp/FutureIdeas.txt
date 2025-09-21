@@ -1,6 +1,6 @@
 ﻿Things to consider for the future:
 
-Dice: create as an object, feed in value and roll random value?
-Class/Race restrictions: multi-level array? Think around best way to have this accessible by the app.
+Dice: Possibly create as an object where you feed in the dice value and have it return the random rolled value, attach interface to dice object for testing.  For Ability score could have a function that calls the dice 4 times, unit testing could be that dice function is called 4 times.
+Class/Race restrictions: Look at jagged array??  Maybe have each class / race with the name as the title of the array, each sub-array with a name of the stat and the change, ie: var dwarf = new [] {{con, +2}, {int, -1}}.
 
-Tier 2 addition: Saving throws? Initiative roll? Armor Class?
+Tier 2 addition: Saving throws? Initiative roll? Armor Class? One option is to link to an API which may contain this info. 
