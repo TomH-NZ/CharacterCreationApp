@@ -1,8 +1,8 @@
 ﻿namespace CharacterCreationApp;
 
-public class DiceRoller : iDiceRoller
+public class Dice : iDiceRoller
 {
-    public int DiceRoll(int diceValue)
+    public int Roll(int diceValue)
     {
         var randomDice = new Random();
         return randomDice.Next(diceValue) + 1;
