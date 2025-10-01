@@ -6,9 +6,6 @@
 This is a basic project to create a simple DnD character creation app that follows the creation guidelines as specified in the Players Handbook.
 
 At the moment the idea is to have 3 levels of character creation:
- - Tier 1
- - Tier 2
- - Tier 3
 
 
 ### Tier 1.
